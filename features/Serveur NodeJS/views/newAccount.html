@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>
+			Planificator | Nouveau compte
+		</title>
+		
+	</head>
+
+	<body>
+
+		<h2>
+			Création de compte
+		</h2>
+		
+		<br/>
+		
+		<form method="POST" action="/createAccount">
+		
+			<p> Utilisateur : </p>
+			<p> Pseudo : <input type="text" name="login" placeholder=""/> </p>
+			<p> Mot de passe : <input type="password" name="password" placeholder=""/> </p>
+			<p> Confirmation du mot de passe : <input type="password" name="passwordConfirm" placeholder=""/> </p>
+			<br/>
+			<p> Nom : <input type="text" name="lastname" placeholder=""/> </p>
+			<p> Prénom : <input type="text" name="firstname" placeholder=""/> </p>
+			<p> Date de naissance : <input type="date" name="birthdate"/> </p>
+			<p> Email : <input type="text" name="email" placeholder=""/> </p>
+			<p> Adresse : <input type="text" name="adress" placeholder=""/> </p>
+			<br/>
+			<p>
+				<input type="submit" value="Confirmer"/>
+				<input type="reset" value="Annuler"/>
+				<a href="/">
+					<input type="button" value="Retour"/>
+				<a/>
+			</p>
+			
+		</form>
+
+	</body>
+
+</html>
